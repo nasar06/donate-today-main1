@@ -132,7 +132,25 @@ form input {
 }
 
 /*-------------gallery-area-------- */
-.gallery-area {}
+.gallery-area {
+    margin: 100px 0px;
+}
+
+.gallery-head {
+    text-align: center;
+}
+
+.single-img-area {
+    text-align: center;
+}
+
+.single-img-area img {
+    width: 270px;
+    height: 185px;
+    border-radius: 5px;
+    margin: 15px 15px;
+}
+
 
 /*-------------updates-area-------- */
 .updates-area {}
