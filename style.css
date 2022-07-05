@@ -19,11 +19,7 @@ h1 {
     color: black;
 }
 
-p {
-    width: 617px;
-    margin-left: 355px;
-
-}
+p {}
 
 /*-------------banner Area-------- */
 .banner-area {
@@ -45,6 +41,8 @@ p {
 
 .banner-text-area p {
     color: white;
+    width: 617px;
+    margin-left: 355px;
 }
 
 /*-------------donate-pricing-area-------- */
@@ -52,6 +50,12 @@ p {
     text-align: center;
     margin-top: 100px;
 }
+
+.pricing-text-area {
+    width: 617px;
+    margin-left: 355px;
+}
+
 
 .pricing-area {
     margin: 50px 0px;
@@ -87,7 +91,45 @@ form input {
 }
 
 /*-------------donate-plan-area-------- */
-.donate-plan-area {}
+.donate-plan-area {
+    margin-top: 100px;
+}
+
+.plan-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-heading p {
+    width: 617px;
+    margin-left: 355px;
+}
+
+.plan-item-area {
+    display: inline-block;
+}
+
+.plan-item {
+    display: inline-block;
+    width: 330px;
+    height: 289px;
+    background-color: #d6e2e3;
+    margin-left: 62px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.plan-item img {
+    margin-top: 60px;
+}
+
+.item-2 {
+    background-color: #e1d8d5;
+}
+
+.item-3 {
+    background-color: #edebd9;
+}
 
 /*-------------gallery-area-------- */
 .gallery-area {}
