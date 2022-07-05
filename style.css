@@ -82,7 +82,7 @@ p {}
     border: 1px solid #FF5959;
 }
 
-form input {
+.custom-price-area form input {
     padding: 10px 265px;
     border: none;
     border-bottom: 2px solid gray;
@@ -153,7 +153,33 @@ form input {
 
 
 /*-------------updates-area-------- */
-.updates-area {}
+.updates-area {
+    text-align: center;
+}
+
+.update-head {
+    margin-bottom: 35px;
+}
+
+.update-head p {
+    width: 617px;
+    margin-left: 355px;
+}
+
+.subscription-area {
+    background-color: #FFF4D6;
+    width: 60%;
+    height: 150px;
+    margin-left: 295px;
+}
+
+.subscription-area form input {
+    margin-top: 77px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+}
 
 /*-------------Footer-area-------- */
 footer {}
