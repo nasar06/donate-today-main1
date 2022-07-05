@@ -3,11 +3,88 @@ body {
     padding: 0;
 }
 
+/*-------------common style-------- */
+.btn {
+    background-color: #FF5959;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Gentium Book Plus', serif;
+    color: black;
+}
+
+p {
+    width: 617px;
+    margin-left: 355px;
+
+}
+
 /*-------------banner Area-------- */
-.banner-area {}
+.banner-area {
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner-text-area {
+    padding: 150px 0px;
+}
+
+.banner-text-area h1 {
+    font-size: 45px;
+    font-family: 'Gentium Book Plus', serif;
+    color: white;
+}
+
+.banner-text-area p {
+    color: white;
+}
 
 /*-------------donate-pricing-area-------- */
-.donate-pricing-area {}
+.donate-pricing-area {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.pricing-area {
+    margin: 50px 0px;
+}
+
+.price {
+    background-color: #FAFAFA;
+    width: 135px;
+    height: 123px;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.price h3 {
+
+    color: #707070;
+    font-weight: 700;
+    margin-top: 47px;
+}
+
+.price.selected {
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+}
+
+form input {
+    padding: 10px 265px;
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-bottom: 25px;
+    text-align: center;
+}
 
 /*-------------donate-plan-area-------- */
 .donate-plan-area {}
