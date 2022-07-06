@@ -31,6 +31,7 @@ p {}
 
 .banner-text-area {
     padding: 150px 0px;
+    background-color: #0d0e1a66;
 }
 
 .banner-text-area h1 {
@@ -174,7 +175,7 @@ p {}
 }
 
 .subscription-area form input {
-    margin-top: 77px;
+    margin-top: 60px;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -182,4 +183,29 @@ p {}
 }
 
 /*-------------Footer-area-------- */
-footer {}
+footer {
+    margin-top: 50px;
+    background-color: black;
+    text-align: center;
+}
+
+.foot-text {
+    padding: 20px;
+}
+
+.foot-text h2 {
+    color: #22ef09;
+    ;
+}
+
+.foot-text p {
+    color: white;
+}
+
+.copyrigh p {
+    color: white;
+    margin: 0;
+    background-color: #1e2126;
+    padding: 7px;
+    font-weight: 600;
+}
